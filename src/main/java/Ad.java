@@ -1,9 +1,11 @@
 public class Ad {
+    //fields
     private long id;
     private long userId;
     private String title;
     private String description;
 
+    //constuctor
     public Ad(long id, long userId, String title, String description) {
         this.id = id;
         this.userId = userId;
@@ -11,6 +13,7 @@ public class Ad {
         this.description = description;
     }
 
+    //getta & setta
     public long getId() {
         return id;
     }

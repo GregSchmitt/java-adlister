@@ -1,4 +1,5 @@
 public class DaoFactory {
+
     private static Ads adsDao;
 
     public static Ads getAdsDao() {
